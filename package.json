@@ -1,0 +1,23 @@
+{
+  "name": "20220921ds",
+  "version": "1.0.0",
+  "main": "121111.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sujaneeeee/20220921DS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sujaneeeee/20220921DS/issues"
+  },
+  "homepage": "https://github.com/Sujaneeeee/20220921DS#readme",
+  "description": ""
+}
