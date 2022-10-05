@@ -11,20 +11,21 @@ do{
         console.log('OK')
         //電梯移動
         if(targetfloor < currentfloor){
-            console.log("down...")
+            console.log("down...") //電梯向下
             while(targetfloor<currentfloor){
-                currentfloor -= 1
+                currentfloor -= 1 //目前電梯往目標樓層向下減
             }
         }else if(targetfloor > currentfloor){
-            console.log("up...")
+            console.log("up...") //電梯向上
+
             while(targetfloor>currentfloor){
-                currentfloor += 1
+                currentfloor += 1 //目前電梯往目標樓層向上加
 
             }
         }
         else{
             console.log("stop!!!!!")
-            break
+            break //電梯停止
         }
     }
     else{
