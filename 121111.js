@@ -8,7 +8,7 @@ class BMI{
     bmi = function(){
         var hPower2 = Math.pow(this.height / 100, 2);
         var bmi = this.weight / hPower2;
-        return bmi;
+        return math.round(bmi)/100;
     }
 }
 
