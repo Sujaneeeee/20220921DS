@@ -10,7 +10,22 @@ do{
     if(targetfloor>=bottom && targetfloor<=top){
         console.log('OK')
         //電梯移動
-        
+        if(targetfloor < currentfloor){
+            console.log("down...")
+            while(targetfloor<currentfloor){
+                currentfloor -= 1
+            }
+        }else if(targetfloor > currentfloor){
+            console.log("up...")
+            while(targetfloor>currentfloor){
+                currentfloor += 1
+
+            }
+        }
+        else{
+            console.log("stop!!!!!")
+            break
+        }
     }
     else{
         console.log('again')
